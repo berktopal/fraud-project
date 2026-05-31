@@ -1,0 +1,10 @@
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\config\WebConfig.java
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\controller\TransactionController.java
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\controller\TransactionRequest.java
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\entity\Account.java
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\entity\Transaction.java
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\entity\TransactionStatus.java
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\FraudengineApplication.java
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\repository\AccountRepository.java
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\repository\TransactionRepository.java
+C:\Users\Casper\Desktop\fraud-project\fraud-engine\src\main\java\com\berqbank\fraudengine\service\FraudDetectionService.java
