@@ -11,7 +11,7 @@ An end-to-end application architected and implemented using Java Spring Boot (Ba
 
 ### Backend
 1. `cd backend` Navigate to the backend directory.
-2. `./mvnw spring-boot:run` Start the application
+2. `./mvnw spring-boot:run` Start the application.
    
 ### Frontend
 1. `cd frontend` Navigate to the frontend directory.
