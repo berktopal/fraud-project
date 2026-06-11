@@ -1,24 +1,24 @@
 # Fraud Detection System (Full-Stack)
 
-Bu proje, Java Spring Boot (Backend) ve React (Frontend) kullanılarak geliştirilmiş, bankacılık işlemlerinde dolandırıcılık (fraud) tespiti yapan uçtan uca bir uygulamadır.
+An end-to-end application architected and implemented using Java Spring Boot (Backend) and React (Frontend) to perform fraud detection in banking transactions.
 
-## 🛠 Kullanılan Teknolojiler
+## Technologies Used
 - **Backend:** Java, Spring Boot, Maven
 - **Frontend:** React, Vite, JavaScript
-- **Veritabanı:** (Hangi DB kullanıyorsan ekle, örn: H2, PostgreSQL)
+- **Veritabanı:** PostgreSQL
 
-## 🚀 Nasıl Çalıştırılır?
+## How to Run
 
 ### Backend
-1. `cd backend` klasörüne gidin.
-2. `./mvnw spring-boot:run` komutu ile uygulamayı başlatın.
-
+1. `cd backend` Navigate to the backend directory.
+2. `./mvnw spring-boot:run` Start the application
+   
 ### Frontend
-1. `cd frontend` klasörüne gidin.
-2. `npm install` komutu ile bağımlılıkları yükleyin.
-3. `npm run dev` komutu ile arayüzü başlatın.
+1. `cd frontend` Navigate to the frontend directory.
+2. `npm install` Install dependencies.
+3. `npm run dev` Start the UI.
 
-## 📝 Proje Özellikleri
-- P2P para transferi işlemlerinde dolandırıcılık kural motoru.
-- Eşzamanlılık (concurrency) ve veritabanı bütünlüğü yönetimi.
-- Gerçek zamanlı işlem takibi arayüzü.
+## Project Features
+- Fraud detection rule engine for P2P money transfer transactions.
+- Concurrency and database integrity management.
+- GReal-time transaction monitoring interface.
