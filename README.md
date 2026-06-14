@@ -1,6 +1,6 @@
 # Fraud Detection System (Full-Stack)
 
-An end-to-end application architected and implemented using Java Spring Boot (Backend) and React (Frontend) to perform fraud detection in banking transactions.
+An end-to-end application architected and implemented using Java, Spring Boot (Backend) and React (Frontend) to perform fraud detection in banking transactions.
 
 ## Technologies Used
 - **Backend:** Java, Spring Boot, Maven
