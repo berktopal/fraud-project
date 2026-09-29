@@ -1,0 +1,18 @@
+# Build output
+target/
+**/target/
+
+# Dependencies & caches
+node_modules/
+.vite/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
