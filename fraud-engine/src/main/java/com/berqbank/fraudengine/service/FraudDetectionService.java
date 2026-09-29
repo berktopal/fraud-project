@@ -17,6 +17,8 @@ public class FraudDetectionService {
     private static final int MAX_TRANSACTIONS_PER_MINUTE = 3;
 
     public TransactionStatus evaluateTransaction(Transaction transaction, Account account) {
+        // Savunma amaçlı: geçersiz tutar asla onaylanmaz
+        if (transaction.getAmount() == null || transaction.getAmount().signum() <= 0) return TransactionStatus.BLOCKED;
         if (transaction.getAmount().compareTo(MAX_TRANSACTION_AMOUNT) > 0) return TransactionStatus.FLAGGED;
 
         LocalDateTime oneMinuteAgo = LocalDateTime.now().minusMinutes(1);
@@ -24,7 +26,8 @@ public class FraudDetectionService {
         
         if (count >= MAX_TRANSACTIONS_PER_MINUTE) return TransactionStatus.BLOCKED;
 
-        if (account.getRiskScore() > 80 && transaction.getAmount().compareTo(new BigDecimal("10000.00")) > 0) {
+        int riskScore = account.getRiskScore() == null ? 0 : account.getRiskScore();
+        if (riskScore > 80 && transaction.getAmount().compareTo(new BigDecimal("10000.00")) > 0) {
             return TransactionStatus.FLAGGED;
         }
 
